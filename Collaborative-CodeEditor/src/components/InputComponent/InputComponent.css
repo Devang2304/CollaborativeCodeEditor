@@ -1,0 +1,20 @@
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  display: inline-block;
+  border: 2px solid rgb(9, 199, 120);
+  border-radius: 10px;
+  box-sizing: border-box;
+  min-width: 350px;
+}
+
+.input:hover {
+  border-color: rgb(0, 138, 80);
+}
+
+.input:focus {
+  outline: none !important;
+  border-color: rgb(0, 138, 80);
+}
